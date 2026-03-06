@@ -15,7 +15,11 @@ const subjects = {
     english : 50,
     biology :20,
 };
-const theArray = Object.values(subjects)
+console.log("The original objects", subjects)
+//Output  The original objects { math: 70, english: 50, biology: 20 }
 
-console.log(theArray)
+const theArray = Object.values(subjects)
+console.log("The new array", theArray)
+//Output   The new array [ 70, 50, 20 ]
+
 
